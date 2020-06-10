@@ -135,11 +135,11 @@ img.profile-pic {
 }
 
 .bg-color-grey {
-	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	background-color: #F2F2F2;
 }
 
 .bg-color-white {
-	background-color: burlywood;
+	background-color: white;
 }
 
 .text-name {
