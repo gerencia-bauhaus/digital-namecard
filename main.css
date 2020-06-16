@@ -1,12 +1,11 @@
 html,
+
 body {
   height:100% ;
   width: 100% ; 
   margin: 0px;
   justify-content: center;
   background-size: cover;
-  background-image: url("/Users/leonardosanchez/Library/Mobile\ Documents/com\~apple\~CloudDocs/BAHAUS/VCARD\ PROJECT/digital-namecard-master/Background.gif");
-  
 }
 
 section {
@@ -19,6 +18,42 @@ section {
 	/*background-image: linear-gradient(-45deg,rgba(22, 22, 159, 0.703), rgba(113, 2, 2, 0.749));
 	background-size: cover;*/
 }
+
+
+.bg {
+	animation:slide 3s ease-in-out infinite alternate;
+	background-image: linear-gradient(-60deg,#fbd324 50%,#242c68 50%,#eb1b23 50%);
+	bottom:0;
+	left:-50%;
+	opacity:.5;
+	position:fixed;
+	right:-50%;
+	top:0;
+	z-index:-1;
+}
+  
+.bg2 {
+	animation-direction:alternate-reverse;
+	animation-duration:4s;
+}
+  
+.bg3 {
+	animation-duration:5s;
+}
+  
+.content {
+	background-color:rgba(255,255,255,.8);
+	border-radius:.25em;
+	box-shadow:0 0 .25em rgba(0,0,0,.25);
+	box-sizing:border-box;
+	left:50%;
+	padding:10vmin;
+	position:fixed;
+	text-align:center;
+	top:50%;
+	transform:translate(-50%, -50%);
+}
+
 p {
 	margin: 0.25rem !important;
 }
@@ -166,32 +201,32 @@ img.profile-pic:hover {
 	
 }
 
-.bg-color-grey {
+/*.bg-color-grey {
 	
-}
+}*/
 
-.bg-color-white {
+/*.bg-color-white {
 	
-}
+}*/
 
 .text-name {
     font-family: 'Lato', helvetica;
     font-weight: 400;
-    color:white;
+    color:darkblue;
     font-size: 18px;
 }
-
+ 
 .text-title-company {
     font-family: 'Lato', helvetica;
     font-weight: 200;
-    color: white;
+    color: darkblue;
     font-size: 18px;
 }
 
 .text-detail {
     font-family: 'Lato', helvetica;
     font-weight: 300;
-    color: white;
+    color: darkblue;
     font-size: 18px;
 }
 
@@ -226,3 +261,11 @@ img.profile-pic:hover {
   }
 }
 
+@keyframes slide {
+	0% {
+	  transform:translateX(-25%);
+	}
+	100% {
+	  transform:translateX(25%);
+	}
+}
