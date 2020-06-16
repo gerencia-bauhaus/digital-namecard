@@ -5,10 +5,10 @@ N:Sanchez;Leonardo;;;
 FN: Leonardo Sanchez Calderin
 ORG:Bauhaus Colombia;
 TITLE:CEO/COO Bauhaus Colombia
-EMAIL;type=INTERNET;type=WORK;type=pref:gerencia@bauhauscol.com;
 EMAIL;type=INTERNET;type=WORK;type=pref:lsanchez@proenergyco.com;
+EMAIL;type=INTERNET;type=WORK;type=pref:gerencia@bauhauscol.com;
 TEL;type=WORK;type=VOICE:+57 320 7831123
-item1.ADR;type=WORK;type=pref:;;Cra 57 # 99-100;;;;Barranquilla
+item1.ADR;type=WORK;type=pref:;;Cra 41 # 57-75;;;;Barranquilla
 item1.X-ABADR:sg
 item2.URL;type=pref:
 item2.X-ABLabel:_$!<HomePage>!$_
