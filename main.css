@@ -2,7 +2,7 @@ html,
 
 body {
   height:100% ;
-  width: 100% ; 
+width: 100% ; 
   margin: 0px;
   justify-content: center;
   background-size: cover;
@@ -22,7 +22,7 @@ section {
 
 .bg {
 	animation:slide 3s ease-in-out infinite alternate;
-	background-image: linear-gradient(-60deg,#fbd324 50%,#242c68 50%,#eb1b23 50%);
+	background-image: linear-gradient(-60deg,#242c68 50%, #5cbb44 50%, #d5dbda 50%);
 	bottom:0;
 	left:-50%;
 	opacity:.5;
@@ -76,7 +76,7 @@ img {
 img.profile-pic {
 	height: 30%;
 	width: 30%;
-	box-shadow: 0px 0px 0px 5px rgba(113, 2, 2, 0.749);
+	box-shadow: 0px 0px 0px 5px #710202bf;
 	border-radius: 50%;
 	transition: box-shadow 0.6s linear;
 	
@@ -87,7 +87,7 @@ img.profile-pic {
 }
 
 img.profile-pic:hover {
-	box-shadow: 0px 0px 0px 10px #FC5185; 
+	box-shadow: 0px 0px 0px 10px #710202bf; 
 }
 
 .zoom {
@@ -99,9 +99,9 @@ img.profile-pic:hover {
 }
 
 .zoom:hover {
-	-ms-transform: scale(1.1); /* IE 9 */
-	-webkit-transform: scale(1.1); /* Safari 3-8 */
-	transform: scale(1.1); 
+	-ms-transform: scale(1.45); /* IE 9 */
+	-webkit-transform: scale(1.45); /* Safari 3-8 */
+	transform: scale(1.45); 
 }
 
 
@@ -210,23 +210,23 @@ img.profile-pic:hover {
 }*/
 
 .text-name {
-    font-family: 'Lato', helvetica;
+    font-family: 'Roboto', helvetica;
     font-weight: 400;
-    color:darkblue;
+    color:#243473;
     font-size: 18px;
 }
  
 .text-title-company {
     font-family: 'Lato', helvetica;
     font-weight: 200;
-    color: darkblue;
+    color: #243473;
     font-size: 18px;
 }
 
 .text-detail {
-    font-family: 'Lato', helvetica;
-    font-weight: 300;
-    color: darkblue;
+    font-family: 'roboto', helvetica;
+	font-weight: 200;
+    color: #243473;
     font-size: 18px;
 }
 
