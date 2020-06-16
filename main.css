@@ -1,9 +1,12 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+  height:100% ;
+  width: 100% ; 
+  margin: 0px;
   justify-content: center;
+  background-size: cover;
+  background-image: url("/Users/leonardosanchez/Library/Mobile\ Documents/com\~apple\~CloudDocs/BAHAUS/VCARD\ PROJECT/digital-namecard-master/Background.gif");
+  
 }
 
 section {
@@ -12,7 +15,10 @@ section {
 	padding-right: 0.5rem;
 	height: auto;
 }
-
+.grad{
+	/*background-image: linear-gradient(-45deg,rgba(22, 22, 159, 0.703), rgba(113, 2, 2, 0.749));
+	background-size: cover;*/
+}
 p {
 	margin: 0.25rem !important;
 }
@@ -29,20 +35,46 @@ img {
     max-width: 100%;
     height: auto;
     width: auto;
-    object-fit: contain;
+	object-fit: contain;
 }
 
 img.profile-pic {
 	height: 30%;
 	width: 30%;
-	object-fit: cover;
+	box-shadow: 0px 0px 0px 5px rgba(113, 2, 2, 0.749);
 	border-radius: 50%;
+	transition: box-shadow 0.6s linear;
+	
+	/*box-shadow: 0px 0px 0px 5px #FC5185;
+
+	
+	object-fit: cover;*/
 }
+
+img.profile-pic:hover {
+	box-shadow: 0px 0px 0px 10px #FC5185; 
+}
+
+.zoom {
+	padding: 50px;
+	transition: transform .2s;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1); 
+}
+
 
 .container {
 	margin: 0 auto;
 	position: relative;
 	height: 100%;
+	
 }
 
 .row {
@@ -87,7 +119,6 @@ img.profile-pic {
 	flex: none;
 	width: 40%;
 }
-
 .col.is-5 {
 	flex: none;
 	width: 50%;
@@ -132,35 +163,36 @@ img.profile-pic {
 
 .secondary-info {
 	height: 8%;
+	
 }
 
 .bg-color-grey {
-	background-color: #F2F2F2;
+	
 }
 
 .bg-color-white {
-	background-color: white;
+	
 }
 
 .text-name {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', helvetica;
     font-weight: 400;
-    color: #333333;
-    font-size: 20px;
+    color:white;
+    font-size: 18px;
 }
 
 .text-title-company {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', helvetica;
     font-weight: 200;
-    color: #333333;
-    font-size: 12px;
+    color: white;
+    font-size: 18px;
 }
 
 .text-detail {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', helvetica;
     font-weight: 300;
-    color: #575757;
-    font-size: 12px;
+    color: white;
+    font-size: 18px;
 }
 
 .bottom {
@@ -168,28 +200,29 @@ img.profile-pic {
 }
 
 .button {
-	background-color: #219653;
+	background-color: rgba(113, 2, 2, 0.749);
 	height: 48px;
-	padding-left: 24px
+	padding-left: 24px;
 	padding-right: 24px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli', helvetica;
 	color: white;
 	font-weight: 300;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   img.profile-pic {
     height: 60%;
     width: 60%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   img.profile-pic {
     height: 80%;
     width: 80%;
   }
 }
+
