@@ -234,7 +234,7 @@ img.profile-pic:hover {
 	height: 23%;
 }
 
-button {
+.button {
   position: relative;
   display: inline-block;
   cursor: pointer;
