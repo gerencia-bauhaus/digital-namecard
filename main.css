@@ -237,8 +237,6 @@ img.profile-pic:hover {
 .button {
 	background-color: rgba(113, 2, 2, 0.749);
 	height: 48px;
-	padding-left: 24px;
-	padding-right: 24px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
