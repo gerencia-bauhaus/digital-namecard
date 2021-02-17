@@ -234,7 +234,7 @@ img.profile-pic:hover {
 	height: 23%;
 }
 
-.button {
+button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -316,6 +316,7 @@ img.profile-pic:hover {
     }
   }
 }
+
 
 @media screen and (max-width: 450px) {
   img.profile-pic {
